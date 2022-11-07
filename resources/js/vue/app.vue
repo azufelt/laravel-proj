@@ -4,7 +4,9 @@
     <div class="todoListContainer">
       <div class="heading">
         <h2 id="title">Research List</h2>
-        <add-item-form/>
+        <add-item-form
+        v-on:reloadlist="getList()"
+        />
       </div>
       <list-view :items="items" v-on:reloadlist="getList()" />
     </div>
@@ -41,13 +43,14 @@ export default {
           this.items = response.data;
         })
         .catch(error => {
-          console.loge(error);
+          console.log(error.response);
         })
     }
   },
   // lifecycle-event, when component is created run getList method.
   created() {
     this.getList();
+    console.log("getList function")
   }
 }
 </script>
