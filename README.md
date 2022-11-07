@@ -8,12 +8,15 @@
 
 
 ## Application Demo Video
-[Walk Through Vid](https://youtu.be/671CYY7cff0)
+[Walk Through Video of Plant-a-Dex storing user input into the DB](https://youtu.be/671CYY7cff0)
+
+#### Screen Shot of Plant-a-Dex UI:
+***********************************************************************************************
 
 ![Screen Shot of Plant-a-Dex UI](public/images/plantadex_ui.png?raw=true "🪴")
 
 
-
+***********************************************************************************************
 ## 💻 Development Environment
 ### 📚 Languages & Libraries:
 
